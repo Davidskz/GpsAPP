@@ -1,0 +1,25 @@
+name: datos_u_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.1.1  # Flutter Google Maps para móviles
+  google_maps_flutter_web: ^0.3.0  # Soporte para Google Maps en la Web
+  http: ^0.13.3  # Paquete http
+  geolocator: ^9.0.2
+  location: ^4.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
